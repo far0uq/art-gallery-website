@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+}
+
+div[id^="row"]{
+    display:flex;
+    width:70%;
+    margin:40px auto 50px auto;
+    justify-content: space-between;
+}
+
+div[id^="row"] dl{
+    width:20%;
+}
+
+div[id^="row"] dt + dt{
+    font-family: fontForDates;
+}
+
+#left-right{
+    display: flex;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    padding:0px 0px 10px 0px;
+    width:70%;
+    margin: 50px auto 70px auto;
+    justify-content: space-between;
+    color:black;
+}
+
+#left-right>section{
+    display:flex;
+    justify-content: space-between;
+}
+
+#left-right>section>p{
+    margin-left:40px;
+    font-family: fontForFilterBar;
+    padding:5px 10px;
+}
+
+#left-right>section>#button{
+    border:2.5px solid black;
+    font-size:14px;
+}
+
+#button:hover{
+    background-color: black;
+    color:rgb(255, 255, 255);
+}
+
+#left-right>p{
+    font-family:fontForFilterBar;
+    padding:5px 10px;
+}
+
+p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+@font-face {
+    font-family: fontForFilterBar;
+    src: url(../fonts/Demo-Arpona/Fontspring-DEMO-arpona-black.otf);
+}
+
+@font-face {
+    font-family: fontForArtworkNames;
+    src: url(../fonts/Demo-Arpona/Fontspring-DEMO-arpona-light.otf);
+}
+
+@font-face {
+    font-family: fontForDates;
+    src: url(../fonts/Demo-Arpona/Fontspring-DEMO-arpona-medium.otf);
+}

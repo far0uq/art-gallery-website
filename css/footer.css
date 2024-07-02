@@ -1,0 +1,109 @@
+body {
+  margin: auto;
+  height:100%;
+}
+
+#footer {
+  background: #ebda9e;
+  justify-content: space-between;
+  padding: 60px 0px;
+  height: 220px;
+  width:100%;
+}
+
+body #credit{
+  background-color: black;
+  margin:auto;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+
+#footer > div{
+  display: flex;
+  width:80%;
+  margin:auto;
+}
+
+@font-face {
+  font-family: fontForFooter;
+  src: url(../fonts/Demo-Arpona/Fontspring-DEMO-arpona-bold.otf);
+}
+
+#footer > div li {
+  font-family: fontForFooter;
+  list-style: none;
+  position:relative;
+  font-size: 30px;
+  padding-top: 8px;
+}
+
+#footer > div ul {
+  width:70%;
+  margin:auto;
+}
+
+#footer > div #vertical {
+  border: 0.5px solid black;
+  height: 130px;
+  margin-top: 30px;
+  margin-left: 900px;
+}
+
+#footer >div aside {
+  font-size: 20px;
+  margin:0px 200px 0px 100px;
+}
+
+aside > #links {
+  margin:5px 0px 0px 30px;
+}
+
+aside > a{
+    text-decoration: none;
+    color:rgb(103, 36, 9);
+    margin-left:30px;
+    font-size:30px;
+    font-family: fontForFooter;
+}
+
+
+#footer > div button {
+  background-color: #ebda9e;
+  color: black;
+  border: none;
+  position:absolute;
+  right:0px;
+  margin-top:30px;
+  transform: rotate(90deg);
+}
+
+#footer_newsletter_heading{
+  font-family:fontForFooter;
+  font-size:22px;
+}
+
+@font-face {
+  font-family: fontForNewsletterFooterHeading;
+  src: url(../fonts/Demo-Arpona/Fontspring-DEMO-arpona-regular.otf);
+}
+
+aside > form input[name = "email"]{
+    border: 0.5px solid whitesmoke;
+    height:40px;
+    width:300px;
+}
+
+#form_inputs{
+  display: flex;
+  margin:15px 0px;
+}
+
+aside > form input[name = "subscribe"]{
+    border: none;
+    background-color:#ebda9e;
+    color:black;
+    padding-left:10px;
+    font-size: 30px;
+}
+
